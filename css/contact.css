@@ -1,0 +1,23 @@
+:root {
+    --primary-theme-color: #dff0ff;
+    --secondary-theme-color: #65A2DB;
+    /* option 2: #006ACD; */
+    --accent-theme-color: #8FC9FF;
+    font-family: 'Caladea';
+}
+nav{
+    font-family: 'Emblema One';
+    background-color: purple;
+    color: white;
+}
+#jumbotron-section{
+    font-family: 'Emblema One';
+    height: 560px;
+    color: black;
+    background-image: url("https://images.pexels.com/photos/4488643/pexels-photo-4488643.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+main, footer{
+    font-family: 'Caladea';
+}

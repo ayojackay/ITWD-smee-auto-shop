@@ -20,12 +20,13 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <a class="visually-hidden-focusable" href="#main-content">Skip to main content</a>
     <header class="container-fluid px-0">
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <i class="fa-solid fa-car-tunnel"></i>
-            <a class="navbar-brand" href="#">Smee Auto Shop</a>
+            <a class="navbar-brand active" aria-current="page" href="index.html">Smee Auto Shop</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,16 +43,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
                 </ul>
             </div>
             </div>
@@ -63,13 +54,99 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="container py-4">
         <!-- MAIN CONTENT -->
         <section id="our-mission">
-            <h1>Our Mission</h1>
+            <h1 class="text-uppercase border-top border-bottom border-3 heading-theme-color text-center fw-bolder mb-4 mt-4">Our Mission</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis reprehenderit cupiditate, numquam dolorum qui reiciendis aliquid amet incidunt quidem cum doloribus maxime modi! Expedita libero quod consequuntur ad ratione?
+            Est aliquam tenetur ullam ab atque perferendis ipsum! Sint modi vero ea consectetur eaque magnam ab, quas beatae incidunt eos iste ipsam, adipisci ipsa, doloremque veritatis cupiditate voluptate? Labore, eius.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis reprehenderit cupiditate, numquam dolorum qui reiciendis aliquid amet incidunt quidem cum doloribus maxime modi! Expedita libero quod consequuntur ad ratione?
+            Est aliquam tenetur ullam ab atque perferendis ipsum! Sint modi vero ea consectetur eaque magnam ab, quas beatae incidunt eos iste ipsam, adipisci ipsa, doloremque veritatis cupiditate voluptate? Labore, eius.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis reprehenderit cupiditate, numquam dolorum qui reiciendis aliquid amet incidunt quidem cum doloribus maxime modi! Expedita libero quod consequuntur ad ratione?
+            Est aliquam tenetur ullam ab atque perferendis ipsum! Sint modi vero ea consectetur eaque magnam ab, quas beatae incidunt eos iste ipsam, adipisci ipsa, doloremque veritatis cupiditate voluptate? Labore, eius.</p>
         </section>
+        <aside>
+            <p class="text-uppercase">For a free estimate call 800-987-6543</p>
+        </aside>
         <section id="top-services">
-            <h1>Top Services</h1>
+            <h1 class="text-uppercase border-top border-bottom border-3 heading-theme-color text-center fw-bolder">Top Services</h1>
+            
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="repairs-tab" data-bs-toggle="tab" data-bs-target="#repairs-tab-pane" type="button" role="tab" aria-controls="repairs-tab-pane" aria-selected="true">
+                    
+                    <span class="visually-hidden">Repairs</span>
+
+                    <span aria-hidden="true">
+                        <i class="fa-solid fa-toolbox fa-2x"></i>
+                    </span>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="tires-tab" data-bs-toggle="tab" data-bs-target="#tires-tab-pane" type="button" role="tab" aria-controls="tires-tab-pane" aria-selected="false">
+
+                    <span class="visually-hidden">Tires</span>
+                    
+
+                    <span aria-hidden="true">
+                        <i class="fa-regular fa-circle-dot fa-2x"></i>
+                    </span>
+                    
+                  </button>
+                  
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="smog-tab" data-bs-toggle="tab" data-bs-target="#smog-tab-pane" type="button" role="tab" aria-controls="smog-tab-pane" aria-selected="false">
+
+                    <span class="visually-hidden">Smog</span>
+
+                    <span aria-hidden="true">
+                        <i class="fa-solid fa-smog fa-2x"></i>
+                    </span>
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="repairs-tab-pane" role="tabpanel" aria-labelledby="repairs-tab" tabindex="0">
+
+                    <section>
+                        <h1 class="text-uppercase fw-bolder h4">Repairs</h1>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="tires-tab-pane" role="tabpanel" aria-labelledby="tires-tab" tabindex="0">
+                    
+                    <section>
+                        <h1 class="text-uppercase fw-bolder h4">Tires</h1>
+                        <ul>
+                            <p>Tire Alignment</p>
+                            <p>Tire Rotation</p>
+                            <p>Tire Repair</p>
+                        </ul>
+                        
+                        <h2>Q&A</h2>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                              Question 1.
+                            </a>
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Question 2.
+                              </a>
+                              <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Question 3.
+                              </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis error et laborum nam repellat odit sint voluptas labore id doloremque beatae iusto optio qui quae corporis aspernatur quaerat, voluptatum enim.</p></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="smog-tab-pane" role="tabpanel" aria-labelledby="smog-tab" tabindex="0">
+                    <section>
+                        <h1 class="text-uppercase fw-bolder h4">Smog</h1>
+                    </section>
+                </div>
+              </div>
         </section>
     </main>
     <footer>
