@@ -1,6 +1,18 @@
 :root {
-    --primary-theme-color: #00509A;
+    --primary-theme-color: #dff0ff;
     --secondary-theme-color: #65A2DB;
     /* option 2: #006ACD; */
     --accent-theme-color: #8FC9FF;
+}
+nav{
+    font-family: Emblema-One;
+    background-color: orange;
+    color: white;
+}
+#jumbotron-section{
+    height: 560px;
+    color: crimson;
+    background-image: url("https://images.pexels.com/photos/4488643/pexels-photo-4488643.jpeg");
+    background-size: cover;
+    background-position: center center;
 }
