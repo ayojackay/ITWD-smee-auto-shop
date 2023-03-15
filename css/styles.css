@@ -1,6 +1,36 @@
 :root {
-    --primary-theme-color: #00509A;
+    --primary-theme-color: #6c767e;
     --secondary-theme-color: #65A2DB;
     /* option 2: #006ACD; */
     --accent-theme-color: #8FC9FF;
+    font-family: 'Caladea';
+}
+nav{
+    font-family: 'Emblema One';
+    background-color: rgb(92, 173, 253);
+    color: white;
+}
+#jumbotron-section{
+    font-family: 'Emblema One';
+    height: 560px;
+    color: black;
+    background-image: url("https://images.pexels.com/photos/4488643/pexels-photo-4488643.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+main{
+    font-family: 'Caladea';
+    margin: 5rem;
+}
+footer{
+    font-family: 'Caladea';
+    background-color: rgb(92, 173, 253);
+}
+.heading-theme-color{
+    color: var(--primary-theme-color);
+    border-color: var(--primary-theme-color) !important;
+}
+
+section{
+    margin: 6rem 0;
 }
