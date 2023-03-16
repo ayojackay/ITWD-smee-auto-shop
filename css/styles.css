@@ -20,6 +20,11 @@ main {
     margin: 5.5rem 0;
 }
 
+.free-estimate-wrapper {
+    height: 280px;
+    background-color: var(--accent-theme-color);
+}
+
 .heading-theme-color {
     color: var(--primary-theme-color);
     border-color: var(--primary-theme-color) !important;
