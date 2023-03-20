@@ -30,6 +30,6 @@ main {
     border-color: var(--primary-theme-color) !important;
 }
 
-section {
+main > section {
     margin: 6rem 0;
 }
